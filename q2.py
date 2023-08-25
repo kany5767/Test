@@ -13,13 +13,13 @@ def check_similarity(s1, s2):
     return all(value == 0 for value in count)
 
 def main():
-    s1 = input("กรุณาใส่สตริงที่หนึ่ง: ").lower()
-    s2 = input("กรุณาใส่สตริงที่สอง: ").lower()
+    s1 = input("คำที่ 1: ").lower()
+    s2 = input("คำที่ 2: ").lower()
 
     if check_similarity(s1, s2):
-        print("ผลลัพธ์: true")
+        print("ผลลัพธ์ที่ได้: true")
     else:
-        print("ผลลัพธ์: false")
+        print("ผลลัพธ์ที่ได้: false")
 
 if __name__ == "__main__":
     main()

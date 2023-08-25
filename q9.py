@@ -5,9 +5,9 @@ def reverse_words(sentence):
     return reversed_sentence
 
 def main():
-    input_sentence = input("กรุณาใส่ประโยค: ")
+    input_sentence = input("กรุณาใส่คำหรือประโยค: ")
     reversed_result = reverse_words(input_sentence)
-    print("ผลลัพธ์หลัง revert คำ:", reversed_result)
+    print("ผลลัพธ์หลังจาก revert คำ:", reversed_result) 
 
 if __name__ == "__main__":
     main()

@@ -4,5 +4,5 @@ def draw_inverted_triangle(height):
         stars = "*" * (2 * i - 1)
         print(spaces + stars)
 
-height = int(input("input number: "))
+height = int(input("ใส่ตัวเลขที่ต้องการ: "))
 draw_inverted_triangle(height)

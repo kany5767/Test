@@ -4,5 +4,5 @@ def draw_triangle(height):
         stars = "*" * (2 * i - 1)
         print(spaces + stars)
 
-height = int(input("Input Number: "))
+height = int(input("Enter Number: "))
 draw_triangle(height)

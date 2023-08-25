@@ -1,4 +1,4 @@
-num = int(input("Input Number 1-4: "))
+num = int(input("ใส่ตัวเลข 1-4: "))
 
 if 1 <= num <= 4:
     n = 1

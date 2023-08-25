@@ -20,7 +20,7 @@ def main():
         i += 1
 
     result = ", ".join(formatted_result)
-    print("ผลลัพธ์:")
+    print("ผลลัพธ์ที่ได้:")
     print(result)
 
 if __name__ == "__main__":

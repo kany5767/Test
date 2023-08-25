@@ -13,19 +13,19 @@ def calculate_change(total_price, payment):
     return change_details
 
 def main():
-    total_price = int(input("กรุณาใส่จำนวนเงินที่ต้องชำระ: "))
-    payment = int(input("กรุณาใส่จำนวนเงินที่ลูกค้าชำระ: "))
+    total_price = int(input("จำนวนเงินที่ต้องชำระ: ")) 
+    payment = int(input("จำนวนเงินที่ลูกค้าจ่าย: ")) 
 
     if payment >= total_price:
         change_details = calculate_change(total_price, payment)
-        print("จำนวนเงินทอน:")
+        print("เงินทอน:") 
         for denomination, count in change_details.items():
             if denomination >= 20:
                 print(f"{denomination} บาท: {count} ใบ")
             else:
                 print(f"{denomination} บาท: {count} เหรียญ")
     else:
-        print("จำนวนเงินที่ลูกค้าชำระไม่เพียงพอ")
+        print("เงินที่ลูกค้าจ่ายมาไม่พอค่ะ") 
 
 if __name__ == "__main__":
     main()
