@@ -10,16 +10,16 @@ def find_pairs_with_sum(nums, target_sum):
 
 def main():
     array = [1, 2, 3, 4, 5]
-    target_sum = int(input("กรุณาใส่ผลรวมที่ต้องการหา: "))
+    target_sum = int(input("Enter Number: "))
 
     pairs = find_pairs_with_sum(array, target_sum)
 
     if len(pairs) > 0:
-        print("ผลลัพธ์:")
+        print("Result:")
         for pair in pairs:
             print(f"{pair[0]},{pair[1]}")
     else:
-        print("ไม่พบคู่ที่มีผลรวมเท่ากับ", target_sum)
+        print("Sum not found", target_sum)
 
 if __name__ == "__main__":
     main()
